@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <!-- <lv-search v-bind:width="width" :onClick="_onClick"></lv-search> -->
+      <lv-search v-bind:width="width" :onClick="_onClick"></lv-search>
 
       <lv-pagination
       :selectedNum="selectedNum"
@@ -9,11 +9,11 @@
       :onClick="_onClick"
       ></lv-pagination>
 
-      <!-- <lv-sort-strip
+      <lv-sort-strip
       :priDir="priDir"
       :hrefs="hrefs"
       :onChange="_onChange">
-      </lv-sort-strip> -->
+      </lv-sort-strip>
 
   </div>
 </template>
