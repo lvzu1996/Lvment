@@ -7,7 +7,7 @@
 ## Build Setup
 
 1.npm install lvment
-``` javascript
+``` html
 
 <template>
   <div id="app">
